@@ -1,0 +1,848 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Aeroport', sans-serif;
+    font-family: 'Aeroport Mono', sans-serif;
+
+                                                
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.active {
+    background: rgb(255, 238, 0);
+}
+.slider-dots button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+}
+/*Container*/
+.container{
+    max-width:1140px ;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+
+
+/*Adertisement*/
+.advertisement{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;   
+    background-color: black;
+    height: 50px;
+    align-items: center;
+}
+.advertisement-container{
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    height: inherit;
+    justify-content: space-evenly;
+}
+.advertisement-image{
+    height: inherit;
+}
+.advertisement-container > p{
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/*Header*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.header > nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.header> nav > ul > li > a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.header > button{
+    padding: 14px 27px 15px;
+    border-radius: 16px;
+    background: #FCC344;
+    
+}
+
+.burger{
+    display: none;
+}
+.menu-burger{
+    display: none;
+}
+
+
+/*Slider*/
+.slider-container{
+    position: relative;
+    width:100%;
+    /*width: 1170px;*/
+    height: 568px;
+    margin-top: 50px;
+    background: #F7F7F7;
+    border-radius: 48px;
+    display: flex;
+    padding: 20px 70px;
+}
+
+.slider-text-contaier{
+    width: 450px;
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    gap: 24px;
+}
+.slider-text-contaier h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+}
+.slider-text-contaier p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.slider-text-contaier > button{
+    border: none;
+    margin-top: 34px;
+    padding: 17px 39px;
+    width: 186px;
+    height: 56px;
+    background: #FCC344;
+    border-radius: 16px;
+}
+
+.slider-image-contaier{
+    position: absolute;
+    left: 503px;
+    bottom: -2px;
+}
+}
+.slider-image-contaier-img{
+    width: 365px;
+    height: 365px;
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:-296px;
+}
+.left-arrow,.right-arrow{
+    position: relative;
+}
+.left-arrow{
+    left: -67px;
+}
+.right-arrow{
+    left: 67px;
+}
+.slider-dots{
+    text-align: center;
+}
+
+
+/*achievements*/
+.achievements{
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:100px;
+    display: flex;
+    /*gap: 30px;*/
+}
+.achievements div{
+    display: flex;
+    flex-direction: column;
+    height: 97px;    
+    justify-content: space-between;
+}
+.achievements div > h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.achievements div > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #717171;
+    width: 240px;
+    height: 48px;
+}
+
+/*courses*/
+.courses{
+    margin-top: 50px;
+}
+
+.courses > h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+}
+
+.courses-cards{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.courses-cards > div{
+    width: 536px;
+    height: 351px;
+    background: #F7F7F7;
+    border-radius: 32px;
+    padding: 32px;
+    display: flex;
+    transition: all 1s ease;
+}
+.courses-cards > div:hover{
+    transform: scale(1.05);
+}
+.add{
+    border:2px solid #F7F7F7;
+    border-radius: 32px;
+    background: white;  
+}
+
+.add-text{
+    justify-content: center;
+    align-items: center;
+
+}
+.card-text *{
+    margin-top: 10px;
+}
+.courses-cards > div > img{
+    width: 140px;
+    height: 140px;
+    align-self: center;
+}
+.card-text > span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 4px 14px;
+    background: #FCC344;
+}
+.card-text > h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+}
+.card-text > p{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #717171;
+}
+.courses-cards-text-more{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/*Course info*/
+.course-info{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+
+}
+.course-info-titile > h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    color: #000000;
+}
+
+
+.course-info-video{
+    position: relative;
+    height: 299px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.course-info-video-play{
+    position: absolute;
+}
+
+
+.course-info-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.course-info-cards div {
+    width: 270px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.course-info-cards div > h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FCC344;
+
+} 
+.course-info-cards div > h3{
+    border-top: 2px black solid;
+    padding-top: 34px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #000000;
+    width: 270px;
+}
+
+
+.course-info-cards div > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #717171;
+}
+
+/*Experts*/
+.experts{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.experts-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    color: #000000; 
+}
+.experts-cards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.experts-cards div{
+    width: 270px;
+}
+
+.experts-cards div > h2{
+    margin-top: 10px;
+    width: 150px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.experts-cards div > p{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+}
+
+
+/*About*/
+.about{
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.about-titile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-titile > a{
+    text-decoration: none;
+    color: #125EF0;
+}
+.about-block{
+    overflow: hidden;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    /*height: 915.36px;*/
+}
+.about-cards{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.about-each-card{
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+    padding: 22px 24px;
+    background: #F7F7F7;
+    border-radius: 24px;
+}
+.cards-video{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-video{
+    width: 100%;
+    min-width: 244px;
+}
+.cards-video-play{
+    position: absolute;
+}
+.cards-title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cards-title img{
+    width: 56px;
+    height: 56px;
+
+}
+.cards-title div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cards-text > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.about-button{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-button > button{
+    background: #000000;
+    border-radius: 16px;
+    gap: 10px;
+    width: 188px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/*Students*/
+.students{
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.students-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.students-title > h1{
+    width: 697px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+}
+.students-title span{
+    color: #717171;
+}
+.students-title > a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #125EF0;
+}
+.students-cards{
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+    /*text-align: center;*/
+}
+.students-cards div{
+    min-width: 340px;
+    /*height: 532px;*/
+    background: #F7F7F7;
+    border-radius: 24px;
+}
+.students-cards div > img{
+    width: 100%;
+    min-width: 340px;
+    min-height: 264px;
+}
+.students-cards-text{
+    padding:16px 30px;
+}
+.students-cards-text > h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+.students-cards-text > p{
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #717171;
+}
+
+/*Useful publication*/
+.useful-pub{
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.useful-pub-title > h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+
+}
+.useful-pub-buttons{
+    margin-top: 32px;
+    min-width: 483px;
+}
+.useful-pub-buttons button{
+    padding: 9px 24px;
+    gap: 10px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+.useful-pub-buttons button:hover{
+    background: #FCC344;
+    border: 1px solid white;
+}
+.useful-pub-cards{
+    min-width: 1092px;
+    margin-top: 20px;
+    width: 100%;
+    overflow:  hidden;
+    height: 773px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.useful-pub-cards > div{
+    width: 349px;
+    height: 372px;
+    background: #F7F7F7;
+    border-radius: 24px;
+}
+.useful-pub-cards div > img{
+    /*width: 100%;*/
+}
+.card-one{
+    display: flex;
+    flex-direction: row;
+}
+.card-one div{
+    padding: 30px;
+}
+.card-one div >h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+
+}
+.card-one div > p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #717171;
+
+}
+.card-one div > span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #717171;
+}
+.card-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.cards-text{
+    padding: 30px;    
+}
+
+.cards-text > h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+
+}
+
+.cards-text > p{
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #717171;
+}
+
+/*Form*/
+.form{
+    margin-top: 100px;
+    align-items: center;
+    gap:30px;
+    display: flex;
+    flex-direction: row;
+    background: #FCC344;
+    border-radius: 32px;
+    justify-content: space-between;
+    padding: 64px 76px;
+}
+.form-main{
+    flex-direction: column;
+    display: flex;
+    gap:30px;
+}
+.form-title{
+    min-width: 253px;
+    display: flex;
+    flex-direction: column;
+}
+.form-name{
+    width: 424px;
+}
+.form-number{
+    width: 199px;
+}
+.form-email{
+    width: 199px;
+}
+.form-main{
+    width: 424px;
+    height: 218px;
+}
+.form-main > form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+.form-main > form input{
+    padding: 19px 21px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+}
+.send{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.send > p{
+    width: 173px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.send > button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 17px 39px;
+    width: 163px;
+    height: 64px;
+    background: #000000;
+    border-radius: 16px;
+
+}
+/*Footer*/
+footer{
+    position: relative;
+    padding-top:100px;
+    padding-bottom: 80px;
+    margin-top: 100px; 
+    height: 531px;
+    background: black;
+}
+.footer-container{
+    max-width:1140px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+.footer-main{
+    position: relative;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-main-block1 img{
+    width: fit-content;
+}
+.footer-main-block1{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-main-block2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-main-block2 h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.footer-main-block2 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.footer-main-block3 ul{
+    display: flex;
+    flex-direction: column;    
+    gap: 30px;
+}
+
+.footer-main-block3 li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+.footer-nmain{
+    border-top: 2px solid #FFFFFF;
+    padding-top:50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nmain p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8D8D8D;
+
+}
+.link{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    
+}
+
+
+
+@media screen and (max-width: 1230px) {
+    .left-arrow,.right-arrow{
+        display: none;
+    }
+    .achievements{
+
+    }
+    .courses-cards{
+        
+    }
+    .courses > h1{
+        display: flex;
+        
+    }
+    .experts-cards,.about-block,.students-cards,.useful-pub-cards{
+        overflow-x:scroll;
+    }
+    .courses-cards > div:hover{
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .slider-image-contaier{
+        display: none;
+    }
+    .slider-text-contaier{
+        width: 100%;
+    }
+
+    .courses-cards > div{
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .card-text{
+        width: 700px;
+    }
+
+}

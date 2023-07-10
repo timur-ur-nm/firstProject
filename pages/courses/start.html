@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoneyFest</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mobile/mobile.css">
+
+
+   <link href="https://fonts.cdnfonts.com/css/aeroport-2" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="anchor"></div>
+      <div class="advertisement" id="advertisement">
+        <div class="advertisement-container">
+          <img src="./images/ad.png" alt="" class="advertisement-image">
+          <p>–30% на все курсы</p>
+          <a href="#"><img src="./images/remove.png" alt="" class="advertisement-remove-button" id="adRemove"></a>
+        </div>
+    </div>
+
+    <div class="container" >
+      <div class="header">
+        <img src="./images/logo.png" alt="" class="logo">
+        <nav>
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Курсы</a></li>
+            <li><a href="#">Эксперты</a></li>
+            <li><a href="#">Публикации</a></li>
+        </ul>
+        </nav>
+        <button>
+          Личный кабинет
+        </button>
+        <img src="./images/burger.png" alt="" class="burger">
+      </div>
+      
+
+
+      <div id="burgerMenu" class="menu-burger">
+        <div class="burger-grey-line">
+        </div>
+        <div class="burger-header">
+          <img src="./images/logo.png" alt="" class="logo">
+          <img src="./images/plus.png" alt="" id="burgerRemove">
+        </div>
+        <nav>
+          <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Курсы</a></li>
+          <li><a href="#">Эксперты</a></li>
+          <li><a href="#">Публикации</a></li>
+        </ul>
+        </nav>
+        <button class="cabinet">Личный кабинет</button>
+      </div>
+
+
+      <div class="slider-container" id="sliderContainer">
+      </div>
+
+
+        <div class="slider-dots">
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
+
+        <div class="arrows">
+          <img src="./images/arrow.png" alt=""id="backButton" class="left-arrow">
+          <img src="./images/arrow2.png" alt="" id="nextButton" class="right-arrow">
+        </div>
+
+         
+    <div class="achievements">
+      <div>
+        <h2>4000+</h2>
+        <p>Учеников уже зарабатывают на криптовалюте</p>
+      </div>
+      
+      <div>
+        <h2>700+</h2>
+        <p>Трейдеров в закрытом 
+инвест-комьюнити</p>
+      </div>
+      
+      <div>
+        <h2>6 лет</h2>
+        <p>Успешно обучаем
+людей зарабатывать</p>
+      </div>
+      <div>
+        <h2>$17+ млн</h2>
+        <p>Под консультационным
+управлением</p>
+      </div>
+    </div>
+    
+    <div class="courses">
+      <h1>Курсы</h1>
+      
+      <div class="courses-cards" id="coursesCards">
+        
+
+        <div class="add  add-text" style="background: white;">
+          <div class="card-text">
+            <h1>Какой выбрать?</h1>
+            <p>Сравнить -></p>
+
+            
+          </div>
+        </div>  
+      </div>
+
+    </div>
+
+     <div class="course-info">
+      <div class="course-info-titile"><h1>Как проходит обучение</h1></div>
+
+      <div class="course-info-video">
+        
+        <img src="./images/video.png" style="width: 100%; position: absolute;" class="course-video"> 
+        <img src="./images/play.png" alt="" class="course-info-video-play"> 
+
+      </div>
+
+      <div class="course-info-cards">
+          <div>
+            <h2>1</h2>
+            <h3>Видеоуроки и онлайн-встречи</h3>
+            <p>Доступ к ним остается навсегда.</p>
+          </div>
+          
+          <div>
+            <h2>2</h2>
+            <h3>Домашние задания</h3>
+            <p>С обратной связью от эксперта.</p>
+          </div>
+          
+          <div>
+            <h2>3</h2>
+            <h3>Кураторы курсов</h3>
+            <p>Всегда на связи , чтобы ответить на ваши вопросы.</p>
+          </div>
+          
+          <div>
+            <h2>4</h2>
+            <h3>Чат с участниками курса</h3>
+            <p>Новости и прогнозы, полезные материалы и просто общение</p>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="experts">
+      <div class="experts-title">Эксперты школы</div>
+      <div class="experts-cards" id="expertsCards">
+        <!-- 1 -->
+        <div>
+          <img src="./images/expert-1.png" alt="">
+          <h2>Максим Денисламов</h2>
+          <p>Гуру технического анализа,автор книг по ивестициям, капитал под консультационным управлением—$8 млн.</p>
+        </div>
+        <!-- 2 -->
+        <div>
+          <img src="./images/expert-2.png" alt="">
+          <h2>Дмитрий Тюрин</h2>
+          <p>Инвестор на криптовалютном рынке с положительной дохо-дностью 90 месяцев подряд.</p>
+        </div>
+        <!-- 3 -->
+        <div>
+          <img src="./images/expert-3.png" alt="">
+          <h2>Мария Лощилова</h2>
+          <p>Специалист по криптоинвести-циям, соавтор курсов Манифест. В 22 заработала свой первый миллион.</p>
+        </div>
+        <!-- 4 -->
+        <div>
+          <img src="./images/expert-4.png" alt="">
+          <h2>Анатолий Дагиль</h2>
+          <p>Специалист по криптоинвести-циям, автор курсов Манифест, лицензированный брокер.</p>
+        </div>
+      </div> 
+    </div>
+
+
+
+    <div class="about">
+      <div class="about-titile">
+        <h1>Ученики про нас</h1>
+        <a href="">Добавить отзыв</a>
+      </div>
+
+      <div class="about-block" id="aboutBlock">
+        <!-- 1 -->
+        <div class="about-cards one">
+          <div class="about-each-card">
+            <div class="cards-title">
+              <img src="./images/student-1.png" alt=""> 
+              <div>
+                <h3>Альберт</h3>
+                <p>12 марта 2021</p>
+              </div> 
+            </div>
+            <div class="cards-video">
+              <img src="./images/about-video.png" alt="" class="about-video">
+              <img src="./images/play.png" alt="" class="cards-video-play" >
+            </div>
+          </div>
+
+          <div class="about-each-card text">
+            <div class="cards-title">
+              <img src="./images/student-2.png" alt=""> 
+              <div>
+                <h3>Aнтон</h3>
+                <p>12 марта 2021</p>
+              </div> 
+            </div>
+            <div class="cards-text">
+              <p>Дмитрий, спасибо Вам за уроки))) Вы обьясняете доступно и понятно каждую тему. Во многом, благодаря Вам, хочется и дальше развиваться в данном направлении. Спасибо за те знания, которые Вы вкладываете в своих учеников. Спасибо за те знания, которые Вы вкладываете в своих учеников. Спасибо за те знания, которые Вы вкладываете в своих учеников.</p>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="about-cards two">
+          <div class="about-each-card">
+            <div class="cards-title">
+              <img src="./images/student-3.png" alt=""> 
+              <div>
+                <h3>Кирил</h3>
+                <p>12 марта 2021</p>
+              </div> 
+            </div>
+            <div class="cards-text">
+              <p>Дмитрий, спасибо Вам за уроки))) Вы обьясняете доступно и понятно каждую тему. Во многом, благодаря Вам, хочется и дальше развиваться в данном направлении. Спасибо за те знания, которые Вы вкладываете в своих учеников.</p>
+            </div>
+          </div>
+          
+          <div class="about-each-card">
+            <div class="cards-title">
+              <img src="./images/student-4.png" alt=""> 
+              <div>
+                <h3>Анастасия</h3>
+                <p>12 марта 2021</p>
+              </div> 
+            </div>
+            <div class="cards-video">
+              <img src="./images/about-video.png" alt="">
+              <img src="./images/play.png" alt="" class="cards-video-play" >
+            </div>
+          </div>
+
+
+        </div>
+        <!-- 3 -->
+        <div class="about-cards three">
+          <div class="about-each-card">
+            <div class="cards-title">
+              <img src="./images/student-5.png" alt=""> 
+              <div>
+                <h3>Никита</h3>
+                <p>12 марта 2021</p>
+              </div> 
+            </div>
+            <div class="cards-text">
+              <p>Дмитрий, спасибо Вам за уроки))) Вы обьясняете доступно и понятно каждую тему. Во многом, благодаря Вам, хочется и дальше развиваться в данном направлении. Спасибо за те знания, которые Вы вкладываете в своих учеников. Спасибо за те знания, которые Вы вкладываете в своих учеников. Спасибо за те знания, которые Вы вкладываете в своих учеников.</p>
+            </div>
+          </div>
+          
+          <div class="about-each-card">
+            <div class="cards-title">
+              <img src="./images/student-6.png" alt=""> 
+              <div>
+                <h3>Жанна</h3>
+                <p>12 марта 2021</p>
+              </div> 
+            </div>
+            <div class="cards-video">
+              <img src="./images/about-video.png" alt="">
+              <img src="./images/play.png" alt="" class="cards-video-play" >
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="about-button">
+        <button>Показать еще</button>
+      </div>
+    </div>
+    
+    <div class="students">
+      <div class="students-title">
+        <h1>Ученики, поменявшие жизнь <span>благодаря нашей школе</span></h1>
+        <a href="">Поделиться историей</a>
+      </div>
+      
+      <div class="students-cards" id="studentsCards">
+        <!-- 1 -->
+        <div>
+          <img src="./images/student-7.png" alt="">
+          <div class="students-cards-text">
+            <h1>«От программиста до криптовалютного трейдера»</h1>
+            <p>Александр Кондаков — о том,как ушел с нелюбимой работы и сменил род деятельности.</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div>
+          <img src="./images/student-8.png" alt="">
+          <div class="students-cards-text">
+            <h1>«Нравится, что давали уникальную информа-цию, которой нет в интернете» </h1>
+            <p>Дмитрий Смирнов. Узнал то, о чем даже не задумывался.</p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div>
+          <img src="./images/student-9.png" alt="">
+          <div class="students-cards-text">
+            <h1>«Вышла на пассивный заработок за 4 месяца с двумя малышами»</h1>
+            <p>Елена Вершинина. Рассчиталась c ипотекой, не имея работы и мужа.</p>
+          </div>
+        </div>
+      </div>       
+    </div>
+
+    <div class="useful-pub">
+        <div class="useful-pub-title">
+          <h1>Полезные публикации</h1>
+        </div>
+
+        <div class="useful-pub-buttons">
+          <button>Все</button>
+          <button>Статьи</button>
+          <button>Видео</button>
+          <button>Мастер-классы</button>
+        </div>
+
+        <div class="useful-pub-cards" id="usefulPubCards">
+          <!-- 1 -->
+          <div class="card-one" style="width: 723px;">
+            <img src="./images/pub-1.png" alt="">
+            <div>
+              <h1>В Кремле прокомменти-ровали возможность официального признания биткоина</h1>
+              <p>«Однозначно, что Россия не готова к таким шагам. Пока нет ни малейшего повода для того...</p>
+              <span>Статья  · 5 марта в 13:30</span>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="card-two">
+            <div class="card-video">  
+              <img src="./images/pub-2.png" alt="" style="width: 100%;"> 
+              <img src="./images/play.png" alt="" style="position: absolute;">              
+            </div>
+            <div class="cards-text">
+              <h1>Какую криптовалюту покупать во время обвала рынка?</h1>
+              <p>Мастер-класс · 5 марта в 13:30</p>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="card-three">
+            <div class="card-video">  
+              <img src="./images/pub-3.png" alt="" style="width: 100%;"> 
+              <img src="./images/play.png" alt="" style="position: absolute;">              
+            </div>
+            <div class="cards-text">
+              <h1>Какую криптовалюту покупать во время обвала рынка?</h1>
+              <p>Мастер-класс · 5 марта в 13:30</p>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="card-fourth">
+            <div class="card-video">  
+              <img src="./images/pub-4.png" alt="" style="width: 100%;"> 
+             
+            </div>
+            <div class="cards-text">
+              <h1>Какую криптовалюту покупать во время обвала рынка?</h1>
+              <p>Мастер-класс · 5 марта в 13:30</p>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="card-fifth">
+            <div class="card-video">  
+              <img src="./images/pub-5.png" alt="" style="width: 100%;"> 
+              <img src="./images/play.png" alt="" style="position: absolute;">              
+            </div>
+            <div class="cards-text">
+              <h1>Какую криптовалюту покупать во время обвала рынка?</h1>
+              <p>Мастер-класс · 5 марта в 13:30</p>
+            </div>
+          </div>  
+        </div>
+        
+    </div>
+    
+    <div class="about-button">
+      <button>Показать еще</button>
+    </div>
+    
+    <div class="form">
+      <div class="form-title">
+        <h1>Есть вопросы?</h1>
+        <h1>Сейчас ответим</h1>
+        <p>Оставьте свои контакты</p>
+      </div>
+      <div class="form-main">
+        <form action="">
+          <input type="name" placeholder="Name"  class="form-name">
+          <input type="text" placeholder="8 (996) 238-56-58"  class="form-number">
+          <input type="email" placeholder="Email"  class="form-email">
+        </form>
+        <div class="send">
+          <p>Нажимая «Отправить», соглашаюсь с правилами</p>
+          <button>Отправить</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <a href="#anchor" class="link"><img src="./images/link.png" alt=""></a>
+        <div class="footer-main">
+          
+          <div class="footer-main-block1">
+            <img src="./images/logo2.png" alt="">
+            <img src="./images/social.png" alt="">
+          </div>
+
+          <div class="footer-main-block2">
+            <h3>Все курсы</h3>  
+            <p>Криптоинвестиции: успешный старт</p>
+            <p>Мастерская трейдинга: практика и заработок</p>
+            <p>Индивидуальное сопровождение эксперта</p>
+          </div>
+          
+          <div class="footer-main-block3">
+            <ul>
+              <li><a href="">Главная</a></li>
+              <li><a href="">Курсы</a></li>
+              <li><a href="">Эксперты</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-nmain">
+          <p>ООО «Манифест»</p>
+          <p>Политика конфиденциальности</p>
+          <p>Договор–оферта</p>
+        </div>
+      </div>
+    </footer>
+    
+
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
